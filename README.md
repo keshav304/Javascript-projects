@@ -15,5 +15,4 @@ A repo of javascript projects.
    https://github.com/keshav304/Javascript-projects/tree/master/Speed%20Typing%20Game
    
    Check your Speed at https://vigorous-elion-0d678a.netlify.app/
-   
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+  
