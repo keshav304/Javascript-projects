@@ -16,14 +16,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const bombsArray = Array(bombAmount).fill('bomb')
         const emptyArray = Array(width * width - bombAmount).fill('valid')
         const gameArray = emptyArray.concat(bombsArray)
-        //main shuffling
         const shuffledArray = gameArray.sort(() => Math.random() - 0.5)
 
         for (let i = 0; i < width * width; i++) {
             const square = document.createElement('div')
             square.setAttribute('id', i)
             square.classList.add(shuffledArray[i])
-            // grid.appendChild(square)
+            grid.appendChild(square)
             squares.push(square)
 
             //normal click
@@ -45,7 +44,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const isRightEdge = (i % width === width - 1)
 
             if (squares[i].classList.contains('valid')) {
-                //checking for bombs in all the possible directions
                 if (i > 0 && !isLeftEdge && squares[i - 1].classList.contains('bomb')) total++
                 if (i > 9 && !isRightEdge && squares[i + 1 - width].classList.contains('bomb')) total++
                 if (i > 10 && squares[i - width].classList.contains('bomb')) total++
