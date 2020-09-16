@@ -5,6 +5,8 @@ A repo of javascript projects.
 1. Minesweeper Game
    A Vanilla JS implementation of the classic minesweeper game
    https://github.com/keshav304/Javascript-projects/tree/master/minesweeper
+   
+   Play at https://gallant-jang-292352.netlify.app/
 
 2. Speed Typing Game (Typerr)
    A game where user can test its Typing speed implemented in Vanilla JS
