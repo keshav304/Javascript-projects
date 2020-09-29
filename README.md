@@ -6,6 +6,7 @@ A repo of javascript projects.
 # Projects
   ## Minesweeper Game
    * A Vanilla JS implementation of the classic minesweeper game
+   * Recursion
    * Play at https://gallant-jang-292352.netlify.app/
 
  ## Speed Typing Game (Typerr)
