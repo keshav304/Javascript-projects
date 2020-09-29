@@ -1,7 +1,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com) 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 # Javascript-projects
-A repo of javascript projects.
+A repo of javascript projects predominantly based on one or two specific topics of javascript and programming to understand that topic better.
 
 # Projects
   ## Minesweeper Game
@@ -11,5 +11,6 @@ A repo of javascript projects.
 
  ## Speed Typing Game (Typerr)
    * A game where user can test its Typing speed implemented in Vanilla JS
+   * Implemented DOM
    * Check your Speed at https://vigorous-elion-0d678a.netlify.app/
   
